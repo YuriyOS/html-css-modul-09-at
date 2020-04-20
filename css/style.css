@@ -1,0 +1,101 @@
+/* = 1 = */
+.one {
+    width: 100%;
+}
+
+.two {
+    width: 100%;
+}
+
+.three {
+    width: 100%;
+}
+
+.four {
+    width: 100%;
+}
+
+.box-1 {
+    text-align: center;
+    line-height: 200px;
+    background-color: #fbf281;
+}
+
+.box-2 {
+    text-align: center;
+    line-height: 200px;
+    background-color: #B8E986;
+}
+
+/* = 2-3 = */
+.box-2-1,
+.box-2-3 {
+    text-align: center;
+    line-height: 200px;
+    background-color: #F8D69D;
+}
+
+.box-2-2 {
+    text-align: center;
+    line-height: 200px;
+    background-color: #F89EA9;
+}
+
+
+/* = 4 = */
+
+h2 {
+    text-align: center;
+}
+
+.wrap {
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 240px); 
+    grid-gap: 2px;
+}  
+
+
+.item-1 {
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+.item-2 {
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    grid-column: 3/5;      
+}
+
+.item-3 {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+}
+
+.item-4 {
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+}
+
+.item-5 {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+}
+
+.item-6 {
+    width: 640px;
+    max-width: 100%;
+    height: auto;
+    grid-row: 3/5;
+    grid-column: 2/4;
+}
